@@ -186,6 +186,6 @@ TeamA1         1.0           19       1
 
 TeamA9         0.2           12       0
 
-Match win by Australia
+Australia win by 9 Wickets
 
 
