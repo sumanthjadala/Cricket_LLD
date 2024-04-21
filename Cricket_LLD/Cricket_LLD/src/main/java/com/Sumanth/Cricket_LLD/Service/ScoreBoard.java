@@ -6,9 +6,9 @@ import com.Sumanth.Cricket_LLD.Model.Team;
 public class ScoreBoard {
     public  static void matchResult(Team teamA,Team teamB){
         if(teamA.getTotalTeamScore()>teamB.getTotalTeamScore()){
-            System.out.println("Match win by "+ teamA.getTeamName());
+            System.out.println(teamA.getTeamName() +"win by "+ teamA.getTotalTeamScore()-teamB.getTotalTeamScore() +" runs");
         }else if(teamA.getTotalTeamScore()<teamB.getTotalTeamScore()){
-            System.out.println("Match win by "+ teamB.getTeamName());
+            System.out.println(teamB.getTeamName()+ " win by "+ (10-teamB.getWicketsFallen()) +" Wickets");
         }else{
             System.out.println("Match was Tied");
         }
